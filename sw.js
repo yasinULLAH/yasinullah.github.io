@@ -302,7 +302,7 @@ if (workbox) {
     },
     {
         "url": "sw.js",
-        "revision": "e4b3676c5b627a6a708b20687b8431a6"
+        "revision": "68089285e59daf71718a1dc8b567af4b"
     },
     {
         "url": "three.min.js",
