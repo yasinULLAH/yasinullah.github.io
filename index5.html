@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Yasin Ullah — Resume</title>
+<meta content="Yasin Ullah Resume" name="description"/>
+<meta content="Yasin Ullah" name="author"/>
+<link href="Yasin.ico" rel="icon"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root {
+      --primary: #2d3e50;
+      --accent: #5c9ead;
+      --bg: #f8fafc;
+      --section: #fff;
+      --shadow: 0 4px 22px rgba(44,62,80,0.04);
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+    }
+    .container {
+      max-width: 860px;
+      margin: 32px auto;
+      background: var(--section);
+      box-shadow: var(--shadow);
+      border-radius: 14px;
+      padding: 2.5rem 2rem;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      gap: 2rem;
+    }
+    .avatar {
+      flex: 0 0 140px;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px #bbb;
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+    }
+    .header-main {
+      flex: 1;
+    }
+    .header-main h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: var(--accent);
+    }
+    .header-main .contacts {
+      margin-top: 1rem;
+    }
+    .header-main .contacts a, .header-main .contacts span {
+      display: inline-block;
+      margin-right: 1.4rem;
+      font-size: 1rem;
+      color: var(--primary);
+      text-decoration: none;
+      vertical-align: middle;
+    }
+    .header-main .contacts a:hover {
+      color: var(--accent);
+    }
+    .social {
+      margin-top: 0.5rem;
+    }
+    .social a {
+      margin-right: 1rem;
+      font-size: 1.3rem;
+      color: var(--accent);
+      transition: color .2s;
+    }
+    .social a:hover {
+      color: #183153;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 0.5rem 1.2rem;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 6px;
+      font-weight: 700;
+      text-decoration: none;
+      margin-top: 1rem;
+      box-shadow: 0 2px 8px #eee;
+      transition: background .2s;
+    }
+    .download-btn:hover {
+      background: #183153;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    section h2 {
+      margin-top: 0;
+      font-size: 1.45rem;
+      color: var(--accent);
+      position: relative;
+      cursor: pointer;
+    }
+    section h2::after {
+      content: "▼";
+      font-size: 1rem;
+      margin-left: 0.5em;
+      color: #999;
+      transition: transform .25s;
+    }
+    section.collapsed h2::after {
+      transform: rotate(-90deg);
+    }
+    .section-content {
+      padding-left: 0.5rem;
+      transition: max-height .35s cubic-bezier(.4,0,.2,1);
+      overflow: hidden;
+    }
+    section.collapsed .section-content {
+      max-height: 0;
+      padding: 0;
+      opacity: 0.5;
+    }
+    @media (max-width: 640px) {
+      .container {
+        padding: 1.1rem 0.5rem;
+      }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.1rem;
+      }
+      .avatar {
+        width: 90px;
+        height: 90px;
+      }
+      .header-main h1 {
+        font-size: 1.45rem;
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1rem;
+      background: #f7f9fa;
+      margin: 1rem 0;
+      border-radius: 7px;
+      overflow: hidden;
+      box-shadow: 0 1px 2px #f4f4f4;
+    }
+    th, td {
+      padding: 0.75rem;
+      border-bottom: 1px solid #eee;
+      text-align: left;
+    }
+    th {
+      background: #e5ebef;
+      color: #3e4a57;
+      font-weight: 700;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    ul {
+      margin: 0.4rem 0 0.4rem 1.5rem;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.7rem;
+    }
+    .flag {
+      vertical-align: middle;
+      height: 20px;
+      margin-left: 0.4em;
+      border-radius: 2px;
+    }
+  </style>
+<link href="manifest.json" rel="manifest"/></head>
+<body>
+<div class="container">
+<header>
+<img alt="Yasin Ullah" class="avatar" src="Yasin.jpg"/>
+<div class="header-main">
+<h1>Yasin Ullah</h1>
+<div class="contacts">
+<span>Village Baker Khel, P/O &amp; Tehsil Domel, Distt. Bannu</span>
+<span>📞 0336 159 3533</span>
+<span>✉️ <a href="mailto:yking.kahn@gmail.com">yking.kahn@gmail.com</a></span>
+</div>
+<div class="social">
+<a href="https://www.facebook.com/yking.khan" target="_blank" title="Facebook">🌐</a>
+<a href="https://api.whatsapp.com/send?phone=3361593533" target="_blank" title="WhatsApp">💬</a>
+<a href="https://twitter.com/yking_khan" target="_blank" title="Twitter">🐦</a>
+<a href="https://www.youtube.com/channel/UCzwJ5l02mpXwP9PCL2gLJJg" target="_blank" title="YouTube">▶️</a>
+</div>
+<a class="download-btn" href="yasin.pdf" target="_blank">Download PDF CV</a>
+</div>
+</header>
+<section>
+<h2 onclick="toggleSection(this)">Career Objective</h2>
+<div class="section-content">
+<p>Seeking a position in an effective and efficient organization, aiming to contribute positively toward the objectives of the organization, to the best of my capabilities and knowledge, and enhance my professional skills.</p>
+</div>
+</section>
+<section>
+<h2 onclick="toggleSection(this)">Personal Profile</h2>
+<div class="section-content">
+<ul>
+<li><strong>Father Name:</strong> Amir Zada</li>
+<li><strong>Date of Birth:</strong> 10-03-1998 (<span id="age"></span>)</li>
+<li><strong>Domicile:</strong> Bannu</li>
+<li><strong>Nationality:</strong> Pakistani <img alt="Pakistan Flag" class="flag" src="pak.gif"/></li>
+<li><strong>Religion:</strong> Islam</li>
+<li><strong>Marital Status:</strong> Married</li>
+<li><strong>Phone Number:</strong> 0336 159 3533</li>
+</ul>
+</div>
+</section>
+<section>
+<h2 onclick="toggleSection(this)">Academic Qualification</h2>
+<div class="section-content">
+<table>
+<thead>
+<tr>
+<th>Degree</th>
+<th>Passing Year</th>
+<th>Board/University</th>
+<th>Marks</th>
+<th>Division</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Matric</td>
+<td>2013</td>
+<td>BISE Bannu</td>
+<td>667/1050</td>
+<td>1st Division</td>
+</tr>
+<tr>
+<td>ICS</td>
+<td>2016</td>
+<td>BISE Bannu</td>
+<td>692/1100</td>
+<td>2nd Division</td>
+</tr>
+<tr>
+<td>B.Sc</td>
+<td>2021</td>
+<td>Bannu University</td>
+<td>346/550</td>
+<td>1st Division</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section>
+<h2 onclick="toggleSection(this)">Skills</h2>
+<div class="section-content">
+<ul>
+<li>Strong interpersonal &amp; communication</li>
+<li>Internet / Computer / Data entry operator</li>
+<li>Computer operator</li>
+<li>MS Office (Word, Excel (VBA), PowerPoint, Access, Outlook)</li>
+<li>Web Development (PHP, HTML, JavaScript, MySQL, CSS, WordPress)</li>
+<li>Database manager (Oracle Form and Report)</li>
+<li>Designing (Corel Draw, Adobe Suite: Photoshop, Illustrator, InDesign, After Effects, Premiere Pro)</li>
+<li>Lynda.com, Pluralsight, Udemy certified in above skills</li>
+</ul>
+</div>
+</section>
+<section>
+<h2 onclick="toggleSection(this)">Experience</h2>
+<div class="section-content">
+<ul>
+<li>2 Years Website Developer / Computer Operator at Khalifa Gul Nawaz Hospital (<a href="http://www.kgnthbannu.gov.pk" target="_blank">kgnthbannu.gov.pk</a>)</li>
+<li>1 Year Dynamic Web Developer at Mikesoft Software Housing, Township Bannu (<a href="https://www.gtvcbbannu.edu.pk" target="_blank">gtvcbbannu.edu.pk</a>)</li>
+<li>2 Years Software Development at Zalmai Net Cafe and Software Housing (own business)</li>
+<li>4 Years Graphic Design (part time), Zalmai Net Cafe (Photoshop, Illustrator, CorelDraw)</li>
+<li>Developed many accounting software for business-persons</li>
+<li>Small home, office, and business networking</li>
+<li>8 Months NADRA OPL employee</li>
+<li>9 months NADRA NSER BISP (Binazir Income Support Program) as Junior Executive/Office In charge</li>
+</ul>
+</div>
+</section>
+<section>
+<h2 onclick="toggleSection(this)">Languages</h2>
+<div class="section-content">
+<ul>
+<li>ENGLISH (read, write, speak, type)</li>
+<li>URDU (read, write, speak, type)</li>
+<li>PUSHTO (read, write, speak, type)</li>
+<li>Arabic (read, write, type)</li>
+</ul>
+</div>
+</section>
+<section>
+<h2 onclick="toggleSection(this)">References</h2>
+<div class="section-content">
+<ul>
+<li>Qadir Ullah (Senior Executive, NADRA; in charge of SMU Domel) — +92-335-9798980</li>
+</ul>
+</div>
+</section>
+</div>
+<script>
+    // Collapsible sections
+    function toggleSection(h2) {
+      const section = h2.parentElement;
+      section.classList.toggle('collapsed');
+    }
+    // Start sections collapsed on mobile
+    if(window.innerWidth < 700) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.add('collapsed'));
+    }
+    // Age calculator
+    function calcAge(birthDate) {
+      const today = new Date();
+      let years = today.getFullYear() - birthDate.getFullYear();
+      let months = today.getMonth() - birthDate.getMonth();
+      let days = today.getDate() - birthDate.getDate();
+      if (days < 0) {
+        months--;
+        days += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+      }
+      if (months < 0) {
+        years--;
+        months += 12;
+      }
+      return `${years} years, ${months} months`;
+    }
+    document.getElementById('age').textContent = calcAge(new Date(1998,2,10)); // months are 0-based
+	
+	
+	// Wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+  // Initialize libraries
+  // GSAP for smooth animations
+  const gsapScript = document.createElement('script');
+  gsapScript.src = 'gsap.min.js';
+  document.head.appendChild(gsapScript);
+  
+  // ScrollTrigger plugin for scroll-based animations
+  const scrollTriggerScript = document.createElement('script');
+  scrollTriggerScript.src = 'ScrollTrigger.min.js';
+  document.head.appendChild(scrollTriggerScript);
+  
+  // Three.js for background particles
+  const threeScript = document.createElement('script');
+  threeScript.src = 'three.min.js';
+  document.head.appendChild(threeScript);
+
+  // Wait for GSAP and other libraries to load
+  gsapScript.onload = () => {
+    scrollTriggerScript.onload = () => {
+      threeScript.onload = () => {
+        initAnimations();
+      };
+    };
+  };
+});
+
+function initAnimations() {
+  // Create particle background for header
+  createParticleBackground();
+  
+  // Init entrance animations
+  animateEntrance();
+  
+  // Init scroll animations
+  initScrollAnimations();
+  
+  // Add interactive elements
+  addInteractiveElements();
+  
+  // Add text animations
+  animateText();
+  
+  // Add skill tag animations
+  animateSkillTags();
+}
+
+// Create an animated particle background for the header
+function createParticleBackground() {
+  const header = document.querySelector('header');
+  const particleContainer = document.createElement('div');
+  particleContainer.className = 'particle-container';
+  particleContainer.style.position = 'absolute';
+  particleContainer.style.top = '0';
+  particleContainer.style.left = '0';
+  particleContainer.style.width = '100%';
+  particleContainer.style.height = '100%';
+  particleContainer.style.overflow = 'hidden';
+  particleContainer.style.zIndex = '1';
+  header.style.position = 'relative';
+  header.insertBefore(particleContainer, header.firstChild);
+  
+  // Get the header's computed style for background gradient
+  const headerStyle = getComputedStyle(header);
+  const bgColor = headerStyle.backgroundImage;
+  
+  // Set up Three.js
+  const width = particleContainer.clientWidth;
+  const height = particleContainer.clientHeight;
+  
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+  const renderer = new THREE.WebGLRenderer({ alpha: true });
+  
+  renderer.setSize(width, height);
+  particleContainer.appendChild(renderer.domElement);
+  
+  // Create particles
+  const particleCount = 100;
+  const particles = new THREE.BufferGeometry();
+  const positions = new Float32Array(particleCount * 3);
+  const sizes = new Float32Array(particleCount);
+  
+  for (let i = 0; i < particleCount; i++) {
+    positions[i * 3] = (Math.random() - 0.5) * width * 0.1;
+    positions[i * 3 + 1] = (Math.random() - 0.5) * height * 0.1;
+    positions[i * 3 + 2] = (Math.random() - 0.5) * 10;
+    sizes[i] = Math.random() * 2 + 1;
+  }
+  
+  particles.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  particles.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+  
+  // Create particle material
+  const particleMaterial = new THREE.PointsMaterial({
+    color: 0xffffff,
+    size: 2,
+    transparent: true,
+    opacity: 0.8,
+    blending: THREE.AdditiveBlending
+  });
+  
+  const particleSystem = new THREE.Points(particles, particleMaterial);
+  scene.add(particleSystem);
+  
+  camera.position.z = 30;
+  
+  // Animation loop
+  function animate() {
+    requestAnimationFrame(animate);
+    
+    // Rotate particles
+    particleSystem.rotation.x += 0.0005;
+    particleSystem.rotation.y += 0.0003;
+    
+    // Move particles
+    const positions = particles.attributes.position.array;
+    for (let i = 0; i < particleCount; i++) {
+      positions[i * 3 + 1] += Math.sin(Date.now() * 0.001 + i) * 0.01;
+    }
+    particles.attributes.position.needsUpdate = true;
+    
+    renderer.render(scene, camera);
+  }
+  
+  animate();
+  
+  // Make responsive
+  window.addEventListener('resize', () => {
+    const width = particleContainer.clientWidth;
+    const height = particleContainer.clientHeight;
+    
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+  });
+  
+  // Set header content above particles
+  const headerContent = document.querySelector('.header-content');
+  headerContent.style.position = 'relative';
+  headerContent.style.zIndex = '2';
+}
+
+// Animate elements on page entrance
+function animateEntrance() {
+  // Header fade in with a slight delay
+  gsap.from('header', {
+    opacity: 0,
+    y: -50,
+    duration: 1.2,
+    ease: 'power3.out'
+  });
+  
+  // Profile picture entrance with spin and bounce
+  gsap.from('.profile-pic', {
+    opacity: 0,
+    scale: 0,
+    rotation: 720,
+    duration: 1.5,
+    delay: 0.3,
+    ease: 'elastic.out(1, 0.3)'
+  });
+  
+  // Staggered entrance for name and job title
+  gsap.from('h1, .job-title', {
+    opacity: 0,
+    y: 30,
+    stagger: 0.2,
+    delay: 0.5,
+    duration: 0.8,
+    ease: 'back.out(1.7)'
+  });
+  
+  // Contact info links entrance
+  gsap.from('.contact-info a', {
+    opacity: 0,
+    x: -20,
+    stagger: 0.1,
+    delay: 0.8,
+    duration: 0.6,
+    ease: 'power2.out'
+  });
+  
+  // Main content entrance
+  gsap.from('main', {
+    opacity: 0,
+    y: 100,
+    delay: 0.5,
+    duration: 1,
+    ease: 'power3.out'
+  });
+}
+
+// Initialize scroll-based animations
+function initScrollAnimations() {
+  // Register ScrollTrigger plugin
+  gsap.registerPlugin(ScrollTrigger);
+  
+  // Animate section titles when scrolled into view
+  gsap.utils.toArray('.section-title').forEach(title => {
+    gsap.from(title, {
+      scrollTrigger: {
+        trigger: title,
+        start: 'top 80%',
+        toggleActions: 'play none none none'
+      },
+      opacity: 0,
+      x: -50,
+      duration: 0.8,
+      ease: 'power2.out'
+    });
+    
+    // Animated underline effect
+    gsap.from(title, {
+      scrollTrigger: {
+        trigger: title,
+        start: 'top 80%',
+        toggleActions: 'play none none none'
+      },
+      backgroundSize: '0% 2px',
+      duration: 1,
+      ease: 'power1.out'
+    });
+  });
+  
+  // Animate experience items with staggered entrance
+  gsap.utils.toArray('.experience-item, .education-item, .project-item').forEach(item => {
+    gsap.from(item, {
+      scrollTrigger: {
+        trigger: item,
+        start: 'top 85%',
+        toggleActions: 'play none none none'
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.8,
+      ease: 'power2.out'
+    });
+  });
+  
+  // Animate description list items with staggered entrance
+  document.querySelectorAll('.description').forEach(description => {
+    gsap.from(description.querySelectorAll('li, p'), {
+      scrollTrigger: {
+        trigger: description,
+        start: 'top 85%',
+        toggleActions: 'play none none none'
+      },
+      opacity: 0,
+      x: 20,
+      stagger: 0.1,
+      duration: 0.5,
+      ease: 'power1.out'
+    });
+  });
+}
+
+// Add interactive elements
+function addInteractiveElements() {
+  // Add hover effect for experience items
+  const experienceItems = document.querySelectorAll('.experience-item, .education-item, .project-item');
+  
+  experienceItems.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      gsap.to(item, {
+        backgroundColor: 'rgba(14, 165, 233, 0.05)',
+        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)',
+        borderRadius: '8px',
+        padding: '16px',
+        margin: '0 -16px 2rem -16px',
+        duration: 0.3,
+        ease: 'power2.out'
+      });
+    });
+    
+    item.addEventListener('mouseleave', () => {
+      gsap.to(item, {
+        backgroundColor: 'transparent',
+        boxShadow: 'none',
+        padding: '0',
+        margin: '0 0 2rem 0',
+        duration: 0.3,
+        ease: 'power2.out'
+      });
+    });
+  });
+  
+  // Add parallax effect to header
+  const header = document.querySelector('header');
+  window.addEventListener('mousemove', (e) => {
+    const xPos = (e.clientX / window.innerWidth - 0.5) * 20;
+    const yPos = (e.clientY / window.innerHeight - 0.5) * 20;
+    
+    gsap.to('.header-content', {
+      x: xPos,
+      y: yPos,
+      duration: 1,
+      ease: 'power2.out'
+    });
+  });
+}
+
+// Animate text with a typing effect
+function animateText() {
+  // Create a custom split text function
+  function splitText(element) {
+    const text = element.textContent;
+    element.textContent = '';
+    
+    const words = text.split(' ');
+    
+    words.forEach((word, i) => {
+      const wordSpan = document.createElement('span');
+      wordSpan.className = 'word';
+      wordSpan.style.display = 'inline-block';
+      wordSpan.style.opacity = '0';
+      wordSpan.style.transform = 'translateY(20px)';
+      wordSpan.textContent = word + (i < words.length - 1 ? ' ' : '');
+      
+      element.appendChild(wordSpan);
+    });
+    
+    return element.querySelectorAll('.word');
+  }
+  
+  // Animate the summary text
+  const summary = document.querySelector('.summary');
+  const words = splitText(summary);
+  
+  gsap.to(words, {
+    scrollTrigger: {
+      trigger: summary,
+      start: 'top 80%',
+      toggleActions: 'play none none none'
+    },
+    opacity: 1,
+    y: 0,
+    stagger: 0.02,
+    duration: 0.5,
+    ease: 'power1.out'
+  });
+  
+  // Add gradient text effect to headings
+  const headings = document.querySelectorAll('h1, .job-title');
+  headings.forEach(heading => {
+    heading.style.backgroundImage = 'linear-gradient(45deg, #ffffff, #e0f2fe)';
+    heading.style.backgroundSize = '200% 200%';
+    heading.style.backgroundClip = 'text';
+    heading.style.webkitBackgroundClip = 'text';
+    heading.style.webkitTextFillColor = 'transparent';
+    heading.style.color = 'transparent';
+    
+    gsap.to(heading, {
+      backgroundPosition: '200% 200%',
+      duration: 8,
+      repeat: -1,
+      yoyo: true,
+      ease: 'sine.inOut'
+    });
+  });
+}
+
+// Animate skill tags
+function animateSkillTags() {
+  const skillTags = document.querySelectorAll('.skill-tag');
+  
+  // Entrance animation
+  gsap.from(skillTags, {
+    scrollTrigger: {
+      trigger: '.skills',
+      start: 'top 80%',
+      toggleActions: 'play none none none'
+    },
+    scale: 0,
+    opacity: 0,
+    rotation: 45,
+    stagger: 0.05,
+    duration: 0.6,
+    ease: 'back.out(1.7)'
+  });
+  
+  // Add floating animation
+  skillTags.forEach((tag, index) => {
+    // Random floating animation for each tag
+    gsap.to(tag, {
+      y: '5',
+      duration: 1.5 + Math.random() * 1,
+      repeat: -1,
+      yoyo: true,
+      ease: 'sine.inOut',
+      delay: index * 0.05
+    });
+    
+    // Add pulse effect on hover
+    tag.addEventListener('mouseenter', () => {
+      gsap.to(tag, {
+        scale: 1.1,
+        backgroundColor: 'rgba(14, 165, 233, 0.2)',
+        boxShadow: '0 4px 12px rgba(14, 165, 233, 0.3)',
+        duration: 0.3,
+        ease: 'power1.out'
+      });
+    });
+    
+    tag.addEventListener('mouseleave', () => {
+      gsap.to(tag, {
+        scale: 1,
+        backgroundColor: 'rgba(14, 165, 233, 0.1)',
+        boxShadow: 'none',
+        duration: 0.3,
+        ease: 'power1.out'
+      });
+    });
+  });
+  
+  // Create a skill progress animation for when skills come into view
+  skillTags.forEach(tag => {
+    // Add a progress indicator
+    const progress = document.createElement('div');
+    progress.className = 'skill-progress';
+    progress.style.position = 'absolute';
+    progress.style.bottom = '0';
+    progress.style.left = '0';
+    progress.style.height = '3px';
+    progress.style.width = '0%';
+    progress.style.backgroundColor = 'rgba(14, 165, 233, 0.7)';
+    progress.style.borderRadius = '0 0 1rem 1rem';
+    
+    tag.style.position = 'relative';
+    tag.appendChild(progress);
+    
+    // Animate the progress when the skill tag is clicked
+    tag.addEventListener('click', () => {
+      gsap.to(progress, {
+        width: '100%',
+        duration: 1,
+        ease: 'power2.inOut'
+      });
+      
+      setTimeout(() => {
+        gsap.to(progress, {
+          width: '0%',
+          duration: 1,
+          ease: 'power2.inOut'
+        });
+      }, 2000);
+    });
+  });
+}
+
+// Add magnetic effect to buttons and links
+function addMagneticEffect() {
+  const links = document.querySelectorAll('a, .skill-tag');
+  
+  links.forEach(link => {
+    link.addEventListener('mousemove', (e) => {
+      const rect = link.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+      
+      gsap.to(link, {
+        x: x * 0.2,
+        y: y * 0.2,
+        duration: 0.3,
+        ease: 'power2.out'
+      });
+    });
+    
+    link.addEventListener('mouseleave', () => {
+      gsap.to(link, {
+        x: 0,
+        y: 0,
+        duration: 0.7,
+        ease: 'elastic.out(1, 0.3)'
+      });
+    });
+  });
+}
+
+// Initialize custom cursor
+function initCustomCursor() {
+  // Create custom cursor elements
+  const cursor = document.createElement('div');
+  cursor.className = 'custom-cursor';
+  cursor.style.position = 'fixed';
+  cursor.style.width = '10px';
+  cursor.style.height = '10px';
+  cursor.style.borderRadius = '50%';
+  cursor.style.backgroundColor = 'rgba(14, 165, 233, 0.7)';
+  cursor.style.pointerEvents = 'none';
+  cursor.style.zIndex = '9999';
+  cursor.style.transform = 'translate(-50%, -50%)';
+  cursor.style.transition = 'transform 0.1s ease, width 0.3s ease, height 0.3s ease';
+  
+  const cursorFollower = document.createElement('div');
+  cursorFollower.className = 'cursor-follower';
+  cursorFollower.style.position = 'fixed';
+  cursorFollower.style.width = '30px';
+  cursorFollower.style.height = '30px';
+  cursorFollower.style.borderRadius = '50%';
+  cursorFollower.style.border = '1px solid rgba(14, 165, 233, 0.3)';
+  cursorFollower.style.pointerEvents = 'none';
+  cursorFollower.style.zIndex = '9998';
+  cursorFollower.style.transform = 'translate(-50%, -50%)';
+  
+  document.body.appendChild(cursor);
+  document.body.appendChild(cursorFollower);
+  
+  // Update cursor position
+  document.addEventListener('mousemove', (e) => {
+    gsap.to(cursor, {
+      x: e.clientX,
+      y: e.clientY,
+      duration: 0.1
+    });
+    
+    gsap.to(cursorFollower, {
+      x: e.clientX,
+      y: e.clientY,
+      duration: 0.5
+    });
+  });
+  
+  // Cursor effects on interactive elements
+  const interactives = document.querySelectorAll('a, button, .skill-tag, .experience-item, .project-item');
+  
+  interactives.forEach(element => {
+    element.addEventListener('mouseenter', () => {
+      gsap.to(cursor, {
+        width: '20px',
+        height: '20px',
+        backgroundColor: 'rgba(14, 165, 233, 0.4)',
+        duration: 0.3
+      });
+      
+      gsap.to(cursorFollower, {
+        width: '50px',
+        height: '50px',
+        border: '1px solid rgba(14, 165, 233, 0.1)',
+        duration: 0.3
+      });
+    });
+    
+    element.addEventListener('mouseleave', () => {
+      gsap.to(cursor, {
+        width: '10px',
+        height: '10px',
+        backgroundColor: 'rgba(14, 165, 233, 0.7)',
+        duration: 0.3
+      });
+      
+      gsap.to(cursorFollower, {
+        width: '30px',
+        height: '30px',
+        border: '1px solid rgba(14, 165, 233, 0.3)',
+        duration: 0.3
+      });
+    });
+  });
+}
+
+// Add page transition effects
+function addPageTransitions() {
+  // Preloader animation
+  const preloader = document.createElement('div');
+  preloader.className = 'preloader';
+  preloader.style.position = 'fixed';
+  preloader.style.top = '0';
+  preloader.style.left = '0';
+  preloader.style.width = '100%';
+  preloader.style.height = '100%';
+  preloader.style.backgroundColor = '#0f172a';
+  preloader.style.display = 'flex';
+  preloader.style.justifyContent = 'center';
+  preloader.style.alignItems = 'center';
+  preloader.style.zIndex = '10000';
+  
+  // Create loading animation
+  const loader = document.createElement('div');
+  loader.className = 'loader';
+  loader.innerHTML = '<svg width="50" height="50" viewBox="0 0 50 50"><circle cx="25" cy="25" r="20" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-dasharray="125" stroke-dashoffset="125"></circle></svg>';
+  
+  preloader.appendChild(loader);
+  document.body.appendChild(preloader);
+  
+  // Animate preloader
+  gsap.to('circle', {
+    strokeDashoffset: 0,
+    duration: 1.5,
+    ease: 'power2.inOut'
+  });
+  
+  // Hide preloader after content is loaded
+  window.addEventListener('load', () => {
+    gsap.to(preloader, {
+      opacity: 0,
+      duration: 0.8,
+      ease: 'power2.inOut',
+      onComplete: () => {
+        preloader.style.display = 'none';
+      }
+    });
+  });
+  
+  // Simulate load event if it has already happened
+  if (document.readyState === 'complete') {
+    gsap.to(preloader, {
+      opacity: 0,
+      duration: 0.8,
+      delay: 1,
+      ease: 'power2.inOut',
+      onComplete: () => {
+        preloader.style.display = 'none';
+      }
+    });
+  }
+}
+
+// Initialize all additional animations
+function initAdditionalAnimations() {
+  addMagneticEffect();
+  initCustomCursor();
+  addPageTransitions();
+}
+
+// Call additional animations after initial animations
+setTimeout(() => {
+  initAdditionalAnimations();
+}, 100);
+  </script>
+<script type="module">
+  import { Workbox } from 'https://storage.googleapis.com/workbox-cdn/releases/7.0.0/workbox-window.prod.mjs';
+
+  const swUrl = './sw.js';
+  const wb = new Workbox(swUrl);
+
+  wb.addEventListener('waiting', () => {
+    console.log('A new service worker is waiting to activate.');
+    wb.messageSW({ type: 'SKIP_WAITING' });
+  });
+
+  wb.addEventListener('controlling', () => {
+    console.log('The new service worker is now in control. Reloading page for updates...');
+    window.location.reload();
+  });
+
+  wb.register();
+</script></body>
+</html>
