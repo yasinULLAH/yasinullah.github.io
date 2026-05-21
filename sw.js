@@ -178,7 +178,7 @@ if (workbox) {
     },
     {
         "url": "index.html",
-        "revision": "f3bc1c94a2eca00b374c65fd1b9ba51c"
+        "revision": "df6c51f8ef29a159d43abf2d9c79b4bd"
     },
     {
         "url": "index3.html",
@@ -302,7 +302,7 @@ if (workbox) {
     },
     {
         "url": "sw.js",
-        "revision": "9b1a158084bdd7357be28c6a5c29b11f"
+        "revision": "e4b3676c5b627a6a708b20687b8431a6"
     },
     {
         "url": "three.min.js",
@@ -341,7 +341,7 @@ if (workbox) {
         "revision": "49e546550af284d5db439a55f0d1656f"
     },
     {
-        "url": "yasin.jpg",
+        "url": "Yasin.jpg",
         "revision": "b6ada0cbd309c0fc5deebc14bd2c79b9"
     },
     {
